@@ -1,0 +1,90 @@
+#topbar {
+    position: absolute;
+    height: 10px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: url('../images/topbar1.png');
+    background-repeat: repeat-x;
+}
+
+
+.navigation{
+    background-color: white !important;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 15px;
+    height: 100%;
+}
+
+#logotext {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.28em;
+}
+
+
+ul li {
+    padding: 1vw 1vw;
+    margin: 2px 10px;
+    list-style-type: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.16em;
+}
+
+#loginbtn {
+
+    background: #FFFFFF;
+    border: 2px solid #4A4A4A;
+    border-radius: 300px;
+}
+
+button span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+}
+
+#navbarSupportedContent ul{
+    position: absolute;
+    right: 10vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    #loginbtn{
+        display: none;
+    }
+
+    #navbarSupportedContent ul{
+    position:absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    }
+    ul li{
+        text-align: center;
+        background-color: white;
+    }
+    ul{
+        background-color: white;
+    }
+  }

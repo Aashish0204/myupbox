@@ -1,0 +1,94 @@
+.socialpost {
+    min-height: 100vh;
+    background-color: #F5F8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialpost h4 {
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images {
+    margin: 8px;
+    height: 500px;
+    width: 250px;
+    background-repeat: no-repeat;
+
+}
+
+#img1 {
+    background: url('../images/img1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#img2 {
+    background: url('../images/img2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#img3 {
+    background: url('../images/img3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#img4 {
+    background: url('../images/img4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.images h5 {
+    margin-top: 4vh;
+}
+
+#followbtn {
+
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    box-sizing: border-box;
+    width: 29vw;
+    height: 10vh;
+    padding: 2vh 1vw;
+    background: #EF8094;
+    border: 4px solid #EF8094;
+    border-radius: 300px;
+    color: white;
+}
+.imgbox{
+    width: 270px;
+    margin-right: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+.container{
+    margin-top: 15vh;
+}
+}

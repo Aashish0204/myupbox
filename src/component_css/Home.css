@@ -1,0 +1,104 @@
+.hero {
+    height: 90vh;
+    background: #F5F8FF;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_left {
+    position: absolute;
+    max-width: 511px;
+    height: 318px;
+    left: 111px;
+    top: 182px;
+    padding: 10px;
+}
+
+.hero_left h2 {
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.hero_left p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+}
+
+.signupbtn {
+
+    width: 183px;
+    height: 61px;
+    background: #FFFFFF;
+    border: 4px solid #EF8094;
+    border-radius: 300px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+
+}
+
+.heroimg #box {
+    position: relative;
+    left: 16vw;
+    top: 5vh;
+    z-index: 5;
+    max-width: 75vw;
+}
+
+.marker {
+    position: relative;
+    left: -8vw;
+    top: -2vh;
+    z-index: 1;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .hero {
+        height: 102vh;
+    }
+
+    .marker {
+        display: none;
+    }
+    .hero_left{
+        left: 8vw;
+    }
+    .heroimg #box {
+        left: -8vw;
+        top: 25vh;
+        width: 800px;
+        max-width: none;
+
+    }
+}
+
+
+@media only screen and (max-width: 473px) {
+    .hero {
+        height: 125vh;
+    }
+
+    .heroimg #box {
+        left: -8vw;
+        top: 35vh;
+        width: 500px;
+        max-width: none;
+
+    }
+}
+
